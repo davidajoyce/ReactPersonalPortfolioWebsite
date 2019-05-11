@@ -17,7 +17,7 @@ class LandingPage extends Component{
                    <h1>Full Stack Web Developer</h1>
 
                 <hr/>
-                <p>Java | Python | C#  | React Native | Bash | SQL </p>
+                <p>Java | Python | C#  | React | Bash | SQL </p>
 
               <div className="social-links">
 
