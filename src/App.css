@@ -13,7 +13,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
+}
+
+.landing-cell {
+  overflow: scroll;
+}
+
+.about-me-cell {
+  overflow: scroll;
 }
 
 .avatar-img {
@@ -89,6 +97,7 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  overflow: scroll;
 }
 
 .contact-grid h2{

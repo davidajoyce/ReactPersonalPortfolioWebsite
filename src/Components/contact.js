@@ -6,7 +6,7 @@ class Contact extends Component{
       return(
         <div className="contact-body">
           <Grid className="contact-grid">
-            <Cell col={6}>
+            <Cell col={4}>
               <h2>David Joyce</h2>
               <img
                 src="https://media.licdn.com/dms/image/C4D03AQHnehhdUcKSNQ/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=2bfKMRNJm9GZTTWJVTMmf_lnU7azEECyrzjPUTrJGPo"
@@ -14,21 +14,21 @@ class Contact extends Component{
                  style={{height: '250px'}}
                  />
             </Cell>
-            <Cell col={6}>
+            <Cell col={8}>
               <h2>Contact Me</h2>
               <hr/>
 
               <div className="contact-list">
                 <List>
                   <ListItem>
-                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                   <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                    <i className="fa fa-phone-square" aria-hidden="true"/>
                    +44 749 057 0890
                    </ListItemContent>
                   </ListItem>
 
                   <ListItem>
-                   <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                   <ListItemContent style={{fontSize: '16px', fontFamily: 'Anton'}}>
                    <i className="fa fa-envelope" aria-hidden="true"/>
                    davidajoyce141@gmail.com
                    </ListItemContent>

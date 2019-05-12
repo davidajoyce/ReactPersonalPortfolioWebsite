@@ -11,51 +11,58 @@ class Projects extends Component{
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
-        {/*Project 1*/}
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:
-          'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}></CardTitle>
-          <CardText>
-             My personal portfolio website using React Components and the Material Design Life React Framework.
-          </CardText>
-          <CardActions border>
-            <Button onClick={this.ReactLink} colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+        <div className="projects-grid mdl-grid">
 
-        {/*Project 2*/}
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-          <CardTitle style={{color: '#000000', height: '176px', background:
-          'url(https://fitsmallbusiness.com/wp-content/uploads/2019/01/AWS-Amplify-icon.png) center / cover'}}></CardTitle>
-          <CardText>
-             Deployed my personal portfolio React website on AWS amplify.
-          </CardText>
-          <CardActions border>
-            <Button onClick={this.ReactAWSLink} colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+         <div class="mdl-cell">
+            {/*Project 1*/}
+            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background:
+              'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}></CardTitle>
+              <CardText>
+                My personal portfolio website using React Components and the Material Design Life React Framework.
+              </CardText>
+              <CardActions border>
+                <Button onClick={this.ReactLink} colored>Github</Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
 
-        {/*Project 3*/}
-        <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-          <CardTitle style={{color: '#000000', height: '176px', background:
-          'url(https://javainterviewpoint-7ac9.kxcdn.com/wp-content/uploads/2019/02/Spring-MVC-Tutorial.png) center / cover'}}></CardTitle>
-          <CardText>
-             Feedback Forum using Spring MVC and MySQL
-          </CardText>
-          <CardActions border>
-            <Button onClick={this.SpringFeedbackLink} colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+          <div class="mdl-cell">
+            {/*Project 2*/}
+            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+              <CardTitle style={{color: '#000000', height: '176px', background:
+              'url(https://fitsmallbusiness.com/wp-content/uploads/2019/01/AWS-Amplify-icon.png) center / cover'}}></CardTitle>
+              <CardText>
+                Deployed my personal portfolio React website on AWS amplify.
+              </CardText>
+              <CardActions border>
+                <Button onClick={this.ReactAWSLink} colored>Github</Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
+
+          <div class="mdl-cell">
+            {/*Project 3*/}
+            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+              <CardTitle style={{color: '#000000', height: '176px', background:
+              'url(https://javainterviewpoint-7ac9.kxcdn.com/wp-content/uploads/2019/02/Spring-MVC-Tutorial.png) center / cover'}}></CardTitle>
+              <CardText>
+                Feedback Forum using Spring MVC and MySQL
+              </CardText>
+              <CardActions border>
+                <Button onClick={this.SpringFeedbackLink} colored>Github</Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
 
         </div>
       )

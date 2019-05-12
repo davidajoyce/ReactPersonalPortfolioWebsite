@@ -8,7 +8,7 @@ class Aboutme extends Component{
           <Grid className="landing-grid">
             <Cell col={12}>
             </Cell>
-            <Cell col={12}>
+            <Cell className="about-me-cell" col={12}>
                 <div className="banner-text">
                   <h1>About Me</h1>
 

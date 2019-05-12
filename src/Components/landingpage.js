@@ -6,14 +6,12 @@ class LandingPage extends Component{
       return(
         <div style={{width: '100%', margin: 'auto'}}>
           <Grid className="landing-grid">
-            <Cell col={12}>
+            <Cell className="landing-cell" col={12}>
               <img
                 src="https://media.licdn.com/dms/image/C4D03AQHnehhdUcKSNQ/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=2bfKMRNJm9GZTTWJVTMmf_lnU7azEECyrzjPUTrJGPo"
                 alt="avatar"
                 className="avatar-img"
                 />
-            </Cell>
-            <Cell col={12}>
                 <div className="banner-text">
                    <h1>Software Engineer</h1>
 
