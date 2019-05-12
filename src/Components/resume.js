@@ -24,8 +24,6 @@ class Resume extends Component{
                <p>Enthusiastic Software engineer with experience in developing and maintaining an enterprise application with Java and C#. Previous 1+ years experience as an operations manager and analyst where I developed reports in SQL along with leading successful client projects.
                </p>
                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-               <h5>Phone</h5>
-               <p>+44 749 057 0890</p>
                <h5>Email</h5>
                <p>davidajoyce141@gmail.com</p>
                <h5>Web</h5>

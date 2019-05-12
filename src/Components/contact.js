@@ -21,13 +21,6 @@ class Contact extends Component{
               <div className="contact-list">
                 <List>
                   <ListItem>
-                   <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
-                   <i className="fa fa-phone-square" aria-hidden="true"/>
-                   +44 749 057 0890
-                   </ListItemContent>
-                  </ListItem>
-
-                  <ListItem>
                    <ListItemContent style={{fontSize: '16px', fontFamily: 'Anton'}}>
                    <i className="fa fa-envelope" aria-hidden="true"/>
                    davidajoyce141@gmail.com
