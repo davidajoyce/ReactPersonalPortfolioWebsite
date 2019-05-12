@@ -47,6 +47,14 @@
   padding: 1em;
 }
 
+.banner-text h3 {
+  font-size: 25px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
 .social-links {
   display: flex;
   justify-content: space-between;
