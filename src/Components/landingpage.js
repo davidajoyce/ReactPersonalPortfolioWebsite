@@ -8,37 +8,27 @@ class LandingPage extends Component{
           <Grid className="landing-grid">
             <Cell col={12}>
               <img
-                src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+                src="https://media.licdn.com/dms/image/C4D03AQHnehhdUcKSNQ/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=2bfKMRNJm9GZTTWJVTMmf_lnU7azEECyrzjPUTrJGPo"
                 alt="avatar"
                 className="avatar-img"
                 />
 
                 <div className="banner-text">
-                   <h1>Full Stack Web Developer</h1>
+                   <h1>Software Engineer</h1>
 
                 <hr/>
-                <p>Java | Python | C#  | React | Bash | SQL </p>
+                <p>Java | Spring | Hibernate |C# | Python | React | SQL | Bash | </p>
 
               <div className="social-links">
 
                 {/*LinkedIn*/}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.linkedin.com/in/david-joyce-01397296/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
                 {/*Github*/}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/davidajoyce" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
-                </a>
-
-                {/*Freecodecamp*/}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
-
-                {/*Youtube*/}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
                 </a>
 
               </div>
