@@ -25,7 +25,7 @@ class App extends Component {
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
-        to="/">MyPortfolio</Link>}>
+        to="/" onClick={() => this.hideToggle()}>MyPortfolio</Link>}>
             <Navigation>
                 <Link to="/resume"  onClick={() => this.hideToggle()} >Resume</Link>
                 <Link to="/aboutme" onClick={() => this.hideToggle()} >About Me</Link>
