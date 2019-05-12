@@ -4,6 +4,15 @@
   background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.landing-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
 .landing-grid {
   background: #667db6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -13,10 +22,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-}
-
-.landing-cell {
+  height: 650px;
   overflow: scroll;
 }
 
