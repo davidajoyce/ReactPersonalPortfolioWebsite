@@ -21,7 +21,7 @@ class Resume extends Component{
                <h2 style={{paddingTop: '2em'}}>David Joyce</h2>
                <h4 style={{color: 'grey'}}>Programmer</h4>
                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-               <p>Enthusiastic Software engineer with experience in developing and maintaining an enterprise application with Java and C#. Previous 1+ years experience as an operations manager and analyst where I developed reports in SQL along with leading successful client projects. In my spare time, I love trying out new technologies, for instance, I develop python scripts for my family’s supermarket business to obtain key data insights and developed a Java Spring web design for a feedback section.
+               <p>Enthusiastic Software engineer with experience in developing and maintaining an enterprise application with Java and C#. Previous 1+ years experience as an operations manager and analyst where I developed reports in SQL along with leading successful client projects.
                </p>
                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                <h5>Phone</h5>
@@ -36,6 +36,13 @@ class Resume extends Component{
              <Cell className="resume-right-col" col={8}>
                 <h2>Education</h2>
 
+                <Education
+                  startYear={2015}
+                  endYear={2016}
+                  schoolName="Imperial College London"
+                  schoolDescription="Dissertation: Cost Benefit Analysis Model Using Bayesian Attack Graphs."
+                  awards="Awarded The Philips Group Project Prize in Computing Science."
+                />
 
                 <Education
                   startYear={2011}
@@ -44,26 +51,9 @@ class Resume extends Component{
                   schoolDescription="Dissertation: Finite element modelling of welded connections of a P91 steel welded T-joint for high temperature fatigue."
                   awards="Awarded a student scholarship for first class honours."
                 />
-
-                <Education
-                  startYear={2015}
-                  endYear={2016}
-                  schoolName="Imperial College London"
-                  schoolDescription="Dissertation: Cost Benefit Analysis Model Using Bayesian Attack Graphs."
-                  awards="Awarded The Philips Group Project Prize in Computing Science."
-                />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
                 <h2>Experience</h2>
-                <Experience
-                  startYear={2016}
-                  endYear={2017}
-                  jobName="Operations Manager and Analyst"
-                  jobDescription="Lead projects and interfaced with clients to make sure requirements were
-                  fulfilled. Organized support outsourcing, developed relationships with longstanding
-                  partners, and created standards that improved efficiency within the company
-                  Developed reports in SQL for our data analytics software. Troubleshooted client network and software support issues"
-                />
 
                 <Experience
                   startYear={2018}
@@ -74,17 +64,28 @@ class Resume extends Component{
                   Testing champion where I am implementing integration tests and unit tests throughout our team. 
                   Review Pull Requests for fellow peers code"
                 />
+
+                <Experience
+                  startYear={2016}
+                  endYear={2017}
+                  jobName="Operations Manager and Analyst"
+                  jobDescription="Lead projects and interfaced with clients to make sure requirements were
+                  fulfilled. Organized support outsourcing, developed relationships with longstanding
+                  partners, and created standards that improved efficiency within the company
+                  Developed reports in SQL for our data analytics software. Troubleshooted client network and software support issues"
+                />
+
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
                 <h2>Skills</h2>
                 <Skills
                    skill="Java"
-                   progress={80}
+                   progress={85}
                 />
 
                 <Skills
                    skill="Python"
-                   progress={50}
+                   progress={65}
                 />
 
                 <Skills
