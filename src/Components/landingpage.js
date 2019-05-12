@@ -12,7 +12,8 @@ class LandingPage extends Component{
                 alt="avatar"
                 className="avatar-img"
                 />
-
+            </Cell>
+            <Cell col={12}>
                 <div className="banner-text">
                    <h1>Software Engineer</h1>
 
