@@ -15,14 +15,12 @@ class Projects extends Component{
         {/*Project 1*/}
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
           <CardTitle style={{color: '#fff', height: '176px', background:
-          'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project #1</CardTitle>
+          'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}></CardTitle>
           <CardText>
-             This is some example text to fill the space cus cant think
+             My personal portfolio website using React Components and the Material Design Life React Framework.
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
+            <Button onClick={this.ReactLink} colored>Github</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -31,15 +29,13 @@ class Projects extends Component{
 
         {/*Project 2*/}
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:
-          'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project #1</CardTitle>
+          <CardTitle style={{color: '#000000', height: '176px', background:
+          'url(https://fitsmallbusiness.com/wp-content/uploads/2019/01/AWS-Amplify-icon.png) center / cover'}}></CardTitle>
           <CardText>
-             This is some example text to fill the space cus cant think
+             Deployed my personal portfolio React website on AWS amplify.
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
+            <Button onClick={this.ReactAWSLink} colored>Github</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -48,15 +44,13 @@ class Projects extends Component{
 
         {/*Project 3*/}
         <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:
-          'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}>React Project #1</CardTitle>
+          <CardTitle style={{color: '#000000', height: '176px', background:
+          'url(https://javainterviewpoint-7ac9.kxcdn.com/wp-content/uploads/2019/02/Spring-MVC-Tutorial.png) center / cover'}}></CardTitle>
           <CardText>
-             This is some example text to fill the space cus cant think
+             Feedback Forum using Spring MVC and MySQL
           </CardText>
           <CardActions border>
-            <Button colored>Github</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
+            <Button onClick={this.SpringFeedbackLink} colored>Github</Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -80,14 +74,22 @@ class Projects extends Component{
     }
   }
 
+  ReactAWSLink(){
+    window.open('https://github.com/davidajoyce/ReactPersonalPortfolioWebsite','_blank');
+  }
+
+  ReactLink(){
+    window.open('https://github.com/davidajoyce/MyPersonalPortfolioReactNative','_blank');
+  }
+
+  SpringFeedbackLink(){
+    window.open('https://github.com/davidajoyce/JavaSpringWebDev','_blank');
+  }
   render(){
       return(
         <div className="category-tabs">
            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-              <Tab>React</Tab>
-              <Tab>Angular</Tab>
-              <Tab>VueJS</Tab>
-              <Tab>MongoDB</Tab>
+              <Tab>Projects</Tab>
            </Tabs>
 
              <Grid>
