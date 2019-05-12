@@ -12,7 +12,7 @@ class Resume extends Component{
              <Cell col={4}>
                <div style={{textAlign: 'center'}}>
                   <img
-                    src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                    src="https://media.licdn.com/dms/image/C4D03AQHnehhdUcKSNQ/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=2bfKMRNJm9GZTTWJVTMmf_lnU7azEECyrzjPUTrJGPo"
                     alt="avatar"
                     style={{height: '200px'}}
                   />
@@ -21,17 +21,15 @@ class Resume extends Component{
                <h2 style={{paddingTop: '2em'}}>David Joyce</h2>
                <h4 style={{color: 'grey'}}>Programmer</h4>
                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-               <p>This is an example paragraph text to be filled in.
+               <p>Enthusiastic Software engineer with experience in developing and maintaining an enterprise application with Java and C#. Previous 1+ years experience as an operations manager and analyst where I developed reports in SQL along with leading successful client projects. In my spare time, I love trying out new technologies, for instance, I develop python scripts for my family’s supermarket business to obtain key data insights and developed a Java Spring web design for a feedback section.
                </p>
                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-               <h5>Address</h5>
-               <p>1 Hacker Way Menlo Park, 94025</p>
                <h5>Phone</h5>
                <p>+44 749 057 0890</p>
                <h5>Email</h5>
                <p>davidajoyce141@gmail.com</p>
                <h5>Web</h5>
-               <p>mywebsite.com</p>
+               <p>davidajoyce.co.uk</p>
                <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
              </Cell>
@@ -40,55 +38,63 @@ class Resume extends Component{
 
 
                 <Education
-                  startYear={2002}
-                  endYear={2006}
-                  schoolName="My University"
-                  schoolDescription="This is a paragraph to be filled in"
+                  startYear={2011}
+                  endYear={2015}
+                  schoolName="National University of Ireland, Galway"
+                  schoolDescription="Dissertation: Finite element modelling of welded connections of a P91 steel welded T-joint for high temperature fatigue."
+                  awards="Awarded a student scholarship for first class honours."
                 />
 
                 <Education
-                  startYear={2007}
-                  endYear={2009}
-                  schoolName="My University"
-                  schoolDescription="This is a paragraph to be filled in"
+                  startYear={2015}
+                  endYear={2016}
+                  schoolName="Imperial College London"
+                  schoolDescription="Dissertation: Cost Benefit Analysis Model Using Bayesian Attack Graphs."
+                  awards="Awarded The Philips Group Project Prize in Computing Science."
                 />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
                 <h2>Experience</h2>
                 <Experience
-                  startYear={2009}
-                  endYear={2012}
-                  jobName="First Job"
-                  jobDescription="This is a paragraph to be filled in"
+                  startYear={2016}
+                  endYear={2017}
+                  jobName="Operations Manager and Analyst"
+                  jobDescription="Lead projects and interfaced with clients to make sure requirements were
+                  fulfilled. Organized support outsourcing, developed relationships with longstanding
+                  partners, and created standards that improved efficiency within the company
+                  Developed reports in SQL for our data analytics software. Troubleshooted client network and software support issues"
                 />
 
                 <Experience
-                  startYear={2012}
-                  endYear={2016}
-                  jobName="Second Job"
-                  jobDescription="This is a paragraph to be filled in"
+                  startYear={2018}
+                  endYear={2019}
+                  jobName="Software Engineer"
+                  jobDescription="Work in a Scrum team to design, build, test, deploy and maintain an energy enterprise product. 
+                  Develop UI with C#, Back End and APIs with Java and Spring framework. 
+                  Testing champion where I am implementing integration tests and unit tests throughout our team. 
+                  Review Pull Requests for fellow peers code"
                 />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
                 <h2>Skills</h2>
                 <Skills
-                   skill="javascript"
-                   progress={100}
+                   skill="Java"
+                   progress={80}
                 />
 
                 <Skills
-                   skill="HTML/CSS"
+                   skill="Python"
                    progress={50}
                 />
 
                 <Skills
-                   skill="NodeJS"
+                   skill="C#"
                    progress={50}
                 />
 
                 <Skills
                    skill="React"
-                   progress={25}
+                   progress={30}
                 />
              </Cell>
            </Grid>
