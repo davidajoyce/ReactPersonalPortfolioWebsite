@@ -68,7 +68,7 @@ class Projects extends Component{
             {/*Project 4*/}
             <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
               <CardTitle style={{color: '#000000', height: '176px', background:
-              'url(https://banner2.kisspng.com/20180509/gvq/kisspng-computer-icons-python-programming-language-5af3b9e657db44.4301672315259222783599.jpg) center / cover'}}></CardTitle>
+              'url(https://png.pngtree.com/svg/20161116/bbb0b8e89d.svg) center / cover'}}></CardTitle>
               <CardText>
                 Web Supermarket Price Scraping Script using Python
               </CardText>
