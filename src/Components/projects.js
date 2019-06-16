@@ -64,19 +64,36 @@ class Projects extends Component{
             </Card>
           </div>
 
+          <div class="mdl-cell">
+            {/*Project 4*/}
+            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+              <CardTitle style={{color: '#000000', height: '176px', background:
+              'url(https://banner2.kisspng.com/20180509/gvq/kisspng-computer-icons-python-programming-language-5af3b9e657db44.4301672315259222783599.jpg'}}></CardTitle>
+              <CardText>
+                Web Supermarket Price Scraping Script using Python
+              </CardText>
+              <CardActions border>
+                <Button onClick={this.PythonWebPriceScraping} colored>Github</Button>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
+
         </div>
       )
     } else if(this.state.activeTab === 1){
       return(
-        <div><h1>This is Angular</h1></div>
+        <div><h1>This is </h1></div>
       )
     } else if(this.state.activeTab === 2){
       return(
-        <div><h1>This is VueJS</h1></div>
+        <div><h1>This is </h1></div>
       )
     } else if(this.state.activeTab === 3){
       return(
-        <div><h1>This is MongoDB</h1></div>
+        <div><h1>This is </h1></div>
       )
     }
   }
@@ -92,6 +109,11 @@ class Projects extends Component{
   SpringFeedbackLink(){
     window.open('https://github.com/davidajoyce/JavaSpringWebDev','_blank');
   }
+
+  PythonWebPriceScraping(){
+    window.open('https://github.com/davidajoyce/PythonWebSupermarketPriceScraping','_blank');
+  }
+
   render(){
       return(
         <div className="category-tabs">
