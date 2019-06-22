@@ -16,7 +16,7 @@ class LandingPage extends Component{
                    <h1>Software Engineer</h1>
 
                 <hr/>
-                <p>Java | Spring | Hibernate |C# | Python | React | SQL | Bash | AWS | </p>
+                <p>Java | Spring | Hibernate |C# | Python | React | SQL | AWS | </p>
 
               <div className="social-links">
 
