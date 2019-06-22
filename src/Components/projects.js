@@ -12,24 +12,7 @@ class Projects extends Component{
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid mdl-grid">
-
-         <div class="mdl-cell">
-            {/*Project 1*/}
-            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background:
-              'url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover'}}></CardTitle>
-              <CardText>
-                My personal portfolio website using React Components and the Material Design Life React Framework.
-              </CardText>
-              <CardActions border>
-                <Button onClick={this.ReactLink} colored>Github</Button>
-              </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-          </div>
-
+          
           <div class="mdl-cell">
             {/*Project 2*/}
             <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
